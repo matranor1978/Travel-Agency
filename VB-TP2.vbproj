@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6A212D30-C66C-4E9B-B990-60CDEF1DA218}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>VB_TP2.My.MyApplication</StartupObject>
+    <RootNamespace>VB_TP2</RootNamespace>
+    <AssemblyName>VB-TP2</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>VB-TP2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>VB-TP2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminFrm.Designer.vb">
+      <DependentUpon>AdminFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommisFrm.Designer.vb">
+      <DependentUpon>CommisFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CommisFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Connexion.vb" />
+    <Compile Include="Demarrage.Designer.vb">
+      <DependentUpon>Demarrage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Demarrage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetPasswordCommis.Designer.vb">
+      <DependentUpon>SetPasswordCommis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SetPasswordCommis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GerantFrm.Designer.vb">
+      <DependentUpon>GerantFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GerantFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GerantFrmClients.Designer.vb">
+      <DependentUpon>GerantFrmClients.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GerantFrmClients.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GerantFrmVoyages.Designer.vb">
+      <DependentUpon>GerantFrmVoyages.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GerantFrmVoyages.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomePageFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomePageFrm.Designer.vb">
+      <DependentUpon>HomePageFrm.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="setPasswordGerant.Designer.vb">
+      <DependentUpon>setPasswordGerant.vb</DependentUpon>
+    </Compile>
+    <Compile Include="setPasswordGerant.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilisateur.vb" />
+    <Compile Include="UtilisateurDao.vb" />
+    <Compile Include="Voyages2010DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Voyages2010DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Voyages2010DataSet.vb">
+      <DependentUpon>Voyages2010DataSet.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AdminFrm.resx">
+      <DependentUpon>AdminFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommisFrm.resx">
+      <DependentUpon>CommisFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Demarrage.resx">
+      <DependentUpon>Demarrage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetPasswordCommis.resx">
+      <DependentUpon>SetPasswordCommis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GerantFrm.resx">
+      <DependentUpon>GerantFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GerantFrmClients.resx">
+      <DependentUpon>GerantFrmClients.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GerantFrmVoyages.resx">
+      <DependentUpon>GerantFrmVoyages.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePageFrm.resx">
+      <DependentUpon>HomePageFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="setPasswordGerant.resx">
+      <DependentUpon>setPasswordGerant.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Voyages2010DataSet.xsc">
+      <DependentUpon>Voyages2010DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Voyages2010DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Voyages2010DataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Voyages2010DataSet.xss">
+      <DependentUpon>Voyages2010DataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Voyages2010.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

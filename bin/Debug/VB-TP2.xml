@@ -1,0 +1,140 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+VB-TP2
+</name>
+</assembly>
+<members>
+<member name="P:VB_TP2.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:VB_TP2.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:VB_TP2.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:VB_TP2.Voyages2010DataSet.tblClientsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:VB_TP2.Voyages2010DataSet.tblReservationsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:VB_TP2.Voyages2010DataSet.tblTitresDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:VB_TP2.Voyages2010DataSet.tblVoyagesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:VB_TP2.Voyages2010DataSet.tbUtilisateursDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:VB_TP2.Voyages2010DataSet.tblClientsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:VB_TP2.Voyages2010DataSet.tblReservationsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:VB_TP2.Voyages2010DataSet.tblTitresRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:VB_TP2.Voyages2010DataSet.tblVoyagesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:VB_TP2.Voyages2010DataSet.tbUtilisateursRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:VB_TP2.Voyages2010DataSet.tblClientsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:VB_TP2.Voyages2010DataSet.tblReservationsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:VB_TP2.Voyages2010DataSet.tblTitresRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:VB_TP2.Voyages2010DataSet.tblVoyagesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:VB_TP2.Voyages2010DataSet.tbUtilisateursRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:VB_TP2.Voyages2010DataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:VB_TP2.Voyages2010DataSetTableAdapters.tblClientsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:VB_TP2.Voyages2010DataSetTableAdapters.tblReservationsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:VB_TP2.Voyages2010DataSetTableAdapters.tblTitresTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:VB_TP2.Voyages2010DataSetTableAdapters.tblVoyagesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:VB_TP2.Voyages2010DataSetTableAdapters.tbUtilisateursTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:VB_TP2.Voyages2010DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(VB_TP2.Voyages2010DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:VB_TP2.Voyages2010DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(VB_TP2.Voyages2010DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:VB_TP2.Voyages2010DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(VB_TP2.Voyages2010DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:VB_TP2.Voyages2010DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:VB_TP2.Voyages2010DataSetTableAdapters.TableAdapterManager.UpdateAll(VB_TP2.Voyages2010DataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:VB_TP2.Voyages2010DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:VB_TP2.Voyages2010DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:VB_TP2.Voyages2010DataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
